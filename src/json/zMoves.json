@@ -1,0 +1,41 @@
+{
+  "TypeDefaults": {
+    "Normal": "Breakneck Blitz",
+    "Fire": "Inferno Overdrive",
+    "Water": "Hydro Vortex",
+    "Electric": "Gigavolt Havoc",
+    "Grass": "Bloom Doom",
+    "Ice": "Subzero Slammer",
+    "Fighting": "All-Out Pummeling",
+    "Poison": "Acid Downpour",
+    "Ground": "Tectonic Rage",
+    "Flying": "Supersonic Skystrike",
+    "Psychic": "Shattered Psyche",
+    "Bug": "Savage Spin-Out",
+    "Rock": "Continental Crush",
+    "Ghost": "Never-Ending Nightmare",
+    "Dragon": "Devastating Drake",
+    "Dark": "Black Hole Eclipse",
+    "Steel": "Corkscrew Crash",
+    "Fairy": "Twinkle Tackle"
+  },
+  "SpeciesBaseMoves": {
+    "Catastropika": "Volt Tackle",
+    "10,000,000 Volt Thunderbolt": "Thunderbolt",
+    "Stoked Sparksurfer": "Thunderbolt",
+    "Extreme Evoboost": "Last Resort",
+    "Pulverizing Pancake": "Giga Impact",
+    "Genesis Supernova": "Psychic",
+    "Sinister Arrow Raid": "Spirit Shackle",
+    "Malicious Moonsault": "Darkest Lariat",
+    "Oceanic Operetta": "Sparkling Aria",
+    "Splintered Stormshards": "Stone Edge",
+    "Let's Snuggle Forever": "Play Rough",
+    "Clangorous Soulblaze": "Clanging Scales",
+    "Guardian of Alola": "Nature's Madness",
+    "Searing Sunraze Smash": "Sunsteel Strike",
+    "Menacing Moonraze Maelstrom": "Moongeist Beam",
+    "Light That Burns the Sky": "Photon Geyser",
+    "Soul-Stealing 7-Star Strike": "Spectral Thief"
+  }
+}

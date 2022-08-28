@@ -1,0 +1,38 @@
+{
+  "name": "fizzydex_js",
+  "version": "0.0.1",
+  "description": "small library that provides an interface for getting data from the .json fizzy dex data files",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.8",
+    "prettier": "^2.7.1",
+    "ts-jest": "^28.0.8",
+    "tsup": "^6.2.3",
+    "typescript": "^4.8.2"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "watch": "npm run build -- --watch src",
+    "prepublishOnly": "npm run build",
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisClark13/fizzydex.js.git"
+  },
+  "author": "ChrisClark13",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/ChrisClark13/fizzydex.js/issues"
+  },
+  "homepage": "https://github.com/ChrisClark13/fizzydex.js#readme"
+}
