@@ -5,10 +5,6 @@ import { PokemonMoveList } from "./json/PokemonMoveList";
 import { PokemonInfoList } from "./json/PokemonInfoList";
 import { MoveDex } from "./json/moveDex";
 import { AbilityDex } from "./json/abilityDex";
-import { LevelUpMove, Move } from "./moveList";
-import { TypeWeaknesses } from "./typeWeaknesses";
-import { Form } from "./form";
-import { Pokemon } from "./pokemon";
 
 function DownloadJson(fileURI: string) {
   return new Promise((resolve, reject) => {
@@ -59,10 +55,10 @@ export const FizzyDex = {
   GetPokemon,
   GetMoveInfo,
   GetAbilityInfo,
-  Move,
-  LevelUpMove,
-  TypeWeaknesses,
-  Form,
-  Pokemon,
 };
 export default FizzyDex;
+
+export { LevelUpMove, Move } from "./moveList";
+export { TypeWeaknesses } from "./typeWeaknesses";
+export { Form } from "./form";
+export { Pokemon } from "./pokemon";

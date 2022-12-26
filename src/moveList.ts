@@ -125,8 +125,7 @@ export class MoveList {
     this.LevelUpMoves =
       data.LevelUpMoveLists.find(
         (l) => onlyOneForm || l.Form === moveSet
-      )?.LevelUpMoveMoves.map((m) => new LevelUpMove(m.Name, m.Level, form)) ??
-      [];
+      )?.LevelUpMoves.map((m) => new LevelUpMove(m.Name, m.Level, form)) ?? [];
 
     this.EggMoves = data.EggMoves.filter(
       (m) => onlyOneForm || m.Forms.includes(moveSet)

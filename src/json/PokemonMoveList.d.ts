@@ -11,7 +11,7 @@ export interface PokemonMoveListEntryMove {
 
 interface PokemonMoveListEntryLevelUpMoveList {
   Form: string;
-  LevelUpMoveMoves: PokemonMoveListEntryLevelUpMove[];
+  LevelUpMoves: PokemonMoveListEntryLevelUpMove[];
 }
 
 export interface PokemonMoveListEntry {
