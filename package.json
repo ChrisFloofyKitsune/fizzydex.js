@@ -1,6 +1,6 @@
 {
   "name": "fizzydex.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "small library that provides an interface for getting data from the .json fizzy dex data files",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
