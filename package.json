@@ -30,12 +30,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChrisClark13/fizzydex.js.git"
+    "url": "git+https://github.com/ChrisFloofyKitsune/fizzydex.js.git"
   },
   "author": "ChrisClark13",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/ChrisClark13/fizzydex.js/issues"
+    "url": "https://github.com/ChrisFloofyKitsune/fizzydex.js/issues"
   },
-  "homepage": "https://github.com/ChrisClark13/fizzydex.js#readme"
+  "homepage": "https://github.com/ChrisFloofyKitsune/fizzydex.js#readme"
 }
